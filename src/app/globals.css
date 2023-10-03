@@ -2,26 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&family=Manrope:wght@300&family=VT323&display=swap');
+
+
+body{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Cormorant Upright', serif;
+    background-color: #101011;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+
+.opensans{
+    @apply font-alt text-white font-normal text-sm 2xl:text-lg 3xl:text-xl
+}
+.cormorant-header{
+    @apply font-base text-golden font-semibold text-3xl md:text-4xl lg:text-6xl 2xl:text-7xl 3xl:text-8xl
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg{
+    @apply bg-[url("../assets/bg.png")] bg-center bg-cover bg-no-repeat bg-fixed 
 }
