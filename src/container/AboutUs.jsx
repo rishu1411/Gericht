@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import g from '../assets/g.png'
+// import g from '../assets/g.png'
 import knife from '../assets/knife.png'
 import SubHeading from '@/components/SubHeading'
 
