@@ -4,6 +4,8 @@ import gericht from '../assets/gericht.png'
 import Link from 'next/link'
 import SideBarMenu from './SideBarMenju'
 
+// I'm adding a comment
+
 export default function Navbar() {
   return (
     <>
