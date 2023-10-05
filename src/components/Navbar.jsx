@@ -7,6 +7,8 @@ import MenuContainer from './DropMenu'
 
 // import DropDownMenu from './DropDownMenu'
 
+// I'm adding a comment
+
 export default function Navbar() {
   return (
     <>
