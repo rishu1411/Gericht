@@ -9,7 +9,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 function NewsLetter() {
   return (
       <div className='bg'>
-          <div className='h-screen container mx-auto flex flex-col items-center justify-between' >
+          <div className='md:h-screen h-full container mx-auto flex flex-col items-center justify-between' >
               <div className='border border-gray max-w-screen-md border-t-0 bg-stone-900 flex flex-col items-center container mx-auto py-5'>
                   <SubHeading heading='Newsletter' className='text-white flex flex-col items-center font-base text-sm gap-y-1' img='w-6 ' />
                   <h3 className='text-golden text-4xl font-base tracking-wider mb-6 mt-2'>Subscribe To Our Newsletter</h3>

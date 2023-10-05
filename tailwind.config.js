@@ -43,7 +43,8 @@ module.exports = {
         slide_btn: 'slide_btn 0.5s ease-in repeat-2'
       },
       rotate: {
-        '-90':'-90deg'
+        '-90': '-90deg',
+        '-180':'-180deg'
       }
     },
   },

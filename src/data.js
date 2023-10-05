@@ -13,6 +13,39 @@ import gourmet4 from './assets/gourmet4.jpeg'
 import gourmet5 from './assets/gourmet5.jpeg'
 import gourmet6 from './assets/gourmet6.jpeg'
 
+export const navbar = [
+
+ 
+  {
+    Blog: {
+      item1: 'Blog 1',
+      item2: 'Blog 2',
+      item3: 'Blog 3',
+    }
+  },
+]
+
+export const home = [
+  {
+    item: 'Home 1',
+  },
+  {
+    item: 'Home 2',
+  }
+]
+
+export const Pages = [
+  {item:'About Us'},
+  {item:'Services'},
+  {item:'Team'},
+  {item:'FAQ'},
+]
+export const Blogs = [
+  {item:'Blog 1'},
+  {item:'Blog 2'},
+  {item:'Blog 3'},
+]
+
 export const gallery = [
   {
     name: 'Curry',
