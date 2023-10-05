@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar'
 import AboutUs from '@/container/AboutUs'
 import Chef from '@/container/Chef'
 import FindUs from '@/container/FindUs'
@@ -15,7 +14,6 @@ export default function page() {
   return (
     <>
     <div className='' id='pageBody'>
-        <Navbar />
         <Header />
         <AboutUs />
         <Menu/>
