@@ -13,37 +13,54 @@ import gourmet4 from './assets/gourmet4.jpeg'
 import gourmet5 from './assets/gourmet5.jpeg'
 import gourmet6 from './assets/gourmet6.jpeg'
 
-export const navbar = [
 
- 
-  {
-    Blog: {
-      item1: 'Blog 1',
-      item2: 'Blog 2',
-      item3: 'Blog 3',
-    }
-  },
+export const person = [1,2,3,4,5,6,7,8,12
 ]
+
+export const time = ['7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22']
 
 export const home = [
   {
     item: 'Home 1',
+    href: '/'
   },
   {
     item: 'Home 2',
+    href: '/Home2'
   }
 ]
 
 export const Pages = [
-  {item:'About Us'},
-  {item:'Services'},
-  {item:'Team'},
-  {item:'FAQ'},
+  {
+    item: 'About Us',
+    href: '/Pages/AboutUs'
+  },
+  {
+    item: 'Services',
+    href: '/Pages/Services'
+  },
+  {
+    item: 'Team',
+    href: '/Pages/Teams'
+  },
+  {
+    item: 'FAQ',
+    href: '/Pages/FAQ'
+  },
 ]
 export const Blogs = [
-  {item:'Blog 1'},
-  {item:'Blog 2'},
-  {item:'Blog 3'},
+  {
+    item: 'Blog 1',
+    href: '/Blogs/Blog1'
+  },
+  {
+    item: 'Blog 2',
+    href: '/Blogs/Blog2'
+  },
+  {
+    item: 'Blog 3',
+    href: '/Blogs/Blog3'
+  },
 ]
 
 export const gallery = [

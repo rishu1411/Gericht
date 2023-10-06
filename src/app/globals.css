@@ -15,6 +15,7 @@ body{
 
 
 
+
 .opensans{
     @apply font-alt text-white font-normal text-sm 2xl:text-lg 3xl:text-xl
 }
@@ -25,3 +26,26 @@ body{
 .bg{
     @apply bg-[url("../assets/bg.png")] bg-center bg-cover bg-no-repeat bg-fixed 
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+    /* height: ; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #dcca87;
+    border-radius: 5px;
+    height: 1px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  }

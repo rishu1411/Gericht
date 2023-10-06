@@ -1,4 +1,5 @@
 import AboutUs from '@/container/AboutUs'
+import BookTable from '@/container/BookTable'
 import Chef from '@/container/Chef'
 import FindUs from '@/container/FindUs'
 import Gallery from '@/container/Gallery'
@@ -16,6 +17,7 @@ export default function page() {
     <div className='' id='pageBody'>
         <Header />
         <AboutUs />
+        <BookTable/>
         <Menu/>
         <Chef />
         {/* <Intro/> */}

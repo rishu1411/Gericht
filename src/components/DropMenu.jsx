@@ -21,7 +21,7 @@ export default function MenuContainer() {
         })
     }
     return (
-        <div className='flex text-white font-alt gap-x-4 text-sm group'>
+        <div className='hidden md:flex text-white font-alt gap-x-4 text-sm group'>
         {/* <DropDownMenu name='page'/> */}
         <DropMenu name='Home' list={ home} isOpen={Activity.isOpen} change={()=> setActivity({isOpen:!Activity.isOpen, isActive: 0})} isActive={Activity.isActive === 0} click={handleClick}/>
         <DropMenu name='Pages' list={Pages} isOpen={Activity.isOpen} change={()=> setActivity({isOpen:!Activity.isOpen, isActive: 1})} isActive={Activity.isActive === 1} click={handleClick}/>
@@ -52,8 +52,9 @@ function DropMenu({ name, list, change, isActive, click, isOpen }) {
                     list.map((items, key) => {
                         return (
                             <Menu.Item key={key} onClick={click}>
+                                
                         {({ active }) => (
-                            <Link href='#' className={`${active? 'bg-golden text-black' : 'text-golden'} p-3`}>{ items.item}</Link>
+                            <Link href={items.href} className={`${active? 'bg-golden text-black' : 'text-golden'} p-3`}>{ items.item}</Link>
                         )}
                     </Menu.Item>
                         )        
