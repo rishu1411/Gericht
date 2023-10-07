@@ -1,6 +1,7 @@
 import AboutUs from '@/container/AboutUs'
 import BookTable from '@/container/BookTable'
 import Chef from '@/container/Chef'
+import Customer from '@/container/Customer'
 import FindUs from '@/container/FindUs'
 import Gallery from '@/container/Gallery'
 import Header from '@/container/Header'
@@ -20,6 +21,7 @@ export default function page() {
         <BookTable/>
         <Menu/>
         <Chef />
+        <Customer/>
         {/* <Intro/> */}
         <Laurels />
         <Gallery />

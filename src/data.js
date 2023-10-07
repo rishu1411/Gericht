@@ -12,6 +12,34 @@ import gourmet3 from './assets/gourmet3.jpeg'
 import gourmet4 from './assets/gourmet4.jpeg'
 import gourmet5 from './assets/gourmet5.jpeg'
 import gourmet6 from './assets/gourmet6.jpeg'
+import customer1 from './assets/customer1.png'
+import customer2 from './assets/customer2.png'
+import customer3 from './assets/customer3.png'
+import customer4 from './assets/customer4.png'
+
+export const customer = [
+  {
+    img: customer1,
+    name: 'Jane Cooper',
+    role: 'Chef'
+  },
+  {
+    img: customer2,
+    name: 'Wade Warren',
+    role: 'Sommelier'
+  },
+  {
+    img: customer3,
+    name: 'Robert Fox',
+    role: 'Chef'
+  },
+  {
+    img: customer4,
+    name: 'Broklyn Simmons',
+    role: 'Caterer'
+  }
+]
+
 
 
 export const person = [1,2,3,4,5,6,7,8,12

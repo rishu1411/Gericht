@@ -14,12 +14,12 @@ export default function BookTable() {
           <div className=' md:h-screen h-full py-16 flex flex-col items-center justify-center'>
               
 
-          <div className=' border border-gray p-4 min-w-full flex flex-col items-center '>
+          <div className=' border border-gray py-4 min-w-full flex flex-col items-center '>
               
           <SubHeading heading='Reservations' className='text-white font-base flex flex-col items-center  mb-2 gap-y-[1px] tracking-wider' img='w-8' />
                   <h3 className='font-base text-golden text-4xl tracking-wide '>Book A Table </h3>
                   
-          <form className=' flex flex-col items-center gap-y-4 mt-8 container mx-auto' onSubmit={(e) => e.preventDefault()} >
+          <form className=' flex flex-col items-center justify-between gap-y-4 mt-8' onSubmit={(e) => e.preventDefault()} >
             <div className='flex flex-col lg:flex-row gap-x-6 gap-y-4'>
                       <TableDropDown list={ person} state='No. of Persons?'  />
             {/* <TableDropDown list={ time}  state='Date'/> */}
