@@ -7,7 +7,8 @@ import TableDropDown, { DateDropDown } from '@/components/TableDropDown'
 import {person,time} from '@/data'
 
 export default function BookTable() {
-    // const person = [1,2,3,4,5,6,7,8,12]
+  // const person = [1,2,3,4,5,6,7,8,12]
+  
   return (
       <div className='container mx-auto '>
           <Image src={logo} alt="Laurel's Logo" height={100} className=' absolute right-16 invisible lg:visible pt-2 ' />

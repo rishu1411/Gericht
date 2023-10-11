@@ -4,6 +4,7 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
    
   ],
+  
   theme: {
     fontFamily: {
       base: ['Cormorant Upright, serif'],

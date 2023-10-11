@@ -18,7 +18,7 @@ export default function Navbar() {
         </div>
        <MenuContainer/>
         <div className="sign_in opensans md:flex hidden  space-x-3">
-          <span className='hover:underline hover:underline-offset-8 cursor-pointer hover:text-golden transition-all duration-500'>Log In / Register</span>
+          <Link href='/Login' className='hover:underline hover:underline-offset-8 cursor-pointer hover:text-golden transition-all duration-500'>Log In / Register</Link>
           <span>|</span>
           <span className='hover:underline hover:underline-offset-8 cursor-pointer hover:text-golden transition-all duration-500'>Book Table</span>
       </div>

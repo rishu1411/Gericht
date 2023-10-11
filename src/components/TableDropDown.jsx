@@ -17,7 +17,7 @@ export default function TableDropDown({ list,state }) {
             setValue(`${list[key]} ${list[key]>1? 'People':'Person'}`)
         }
         else if (state === 'Time') {
-            setValue(`${list[key]}:00 ${list[key] >=12? 'pm':'am'}`)
+            setValue(`${list[key]<10 ? '0':''}${list[key]}:00 ${list[key] >=12? 'pm':'am'}`)
             
         }
         
@@ -69,7 +69,7 @@ export function DateDropDown() {
                     </Menu.Button>
                   
                         
-                    <Menu.Items className='grid text-white  min-h-fit h-80 border border-white absolute w-80 backdrop-blur-xl'>
+                    <Menu.Items className='grid text-white  min-h-fit h-[18.5rem] border border-white absolute w-80 '>
            
                         <Menu.Item as='li' className='cursor-pointer list-none px-1' >
                            <Calendar onChange={handleSelect} date={new Date()}/>
