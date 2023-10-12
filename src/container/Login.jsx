@@ -17,7 +17,7 @@ export default function Login() {
   const handleClick = () => {
     setValue({
       email: '',
-      password:null
+      password: ''
     })
   }
 
@@ -28,7 +28,7 @@ export default function Login() {
               <div className='bg-[#202020] flex-1'>
           <h3 className='text-3xl text-golden font-base font-semibold text-center p-2'>Login</h3>
           
-          <form action="" className='container mx-auto my-10 flex flex-col items-center ' id='loginForm' onSubmit={(e)=> e.preventDefault()} method='get' >
+          <form action="" className='container mx-auto my-10 flex flex-col items-center ' id='loginForm' onSubmit={(e)=> e.preventDefault()}  >
             <div className='w-full'>
             <TextField type='email' placeholder='Enter email id' value={value.email} OnChange={(e)=> setValue({email:e.target.value})} />
               <TextField type='password' placeholder='Enter password' value={value.password} OnChange={(e) => setValue({ password: e.target.value })} />

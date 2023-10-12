@@ -37,7 +37,7 @@ export default function SideBarMenu() {
                         </div>
                         <hr className='text-golden my-4'/>
 
-                        <div className="sign_in opensans flex flex-col space-y-4">
+                        <div className="sign_in opensans flex flex-col space-y-4 justify-end">
           <Link href='/Login' className=' cursor-pointer text-golden' onClick={close}>Log In / Register</Link>
           
           <span className=' cursor-pointer text-golden' onClick={close}>Book Table</span>
